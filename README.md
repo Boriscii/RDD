@@ -42,7 +42,7 @@ The function fits treatment group to find the best threshold. It has a complexit
  -- p_val, float -  only in case of success, p-value of the treatment effect significance.
  
  ## Test
- I have a small testing set in the folder `test` (extracted from Carpenter & Dobkin, 2009). 
+ I have a small testing set in the file `test` (extracted from Carpenter & Dobkin, 2009). 
  
  ## Reference
  Carpenter C, Dobkin C. The Effect of Alcohol Consumption on Mortality: Regression Discontinuity Evidence from the Minimum Drinking Age. Am Econ J Appl Econ. 2009 Jan 1;1(1):164-182. doi: 10.1257/app.1.1.164. PMID: 20351794; PMCID: PMC2846371.
