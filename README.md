@@ -1,8 +1,9 @@
 
 # RDD
 This is a tool for automated threshold selection in RDD models (Thistlethwaite & Campbell, 1960). This class of models is robust for many learning evaluation purposes but I found it hard to explain the principle to a non-technical audience.
-The exported object `RDD` uses brute-force to find most suitable threshold and run an automated RDD regression set-up. 
-You may find the module useful if you need to provide an automated RDD setting "as a service": for example, I added pandas on top which allowed for a simple Excel integration helpful for multiple applications within training and service quality evaluation. 
+Here I try to explore an option to create an artificial threshold by using PS matching without the need to manually search for a suitable threshold.
+This is a twist on the model by Chang, N.-C. (2020) who computes PS using trees but for DiD rather than RDD.
+**THE MAIN FILE IS THE R FILE, PYTHON IS THE FIRST ATTEMPT.**
 
 ## Deps
 
@@ -46,5 +47,7 @@ The function fits treatment group to find the best threshold. It has a complexit
  
  ## Reference
  Carpenter C, Dobkin C. The Effect of Alcohol Consumption on Mortality: Regression Discontinuity Evidence from the Minimum Drinking Age. Am Econ J Appl Econ. 2009 Jan 1;1(1):164-182. doi: 10.1257/app.1.1.164. PMID: 20351794; PMCID: PMC2846371.
+ 
+ Chang, N.-C. (2020). Double/debiased machine learning for difference-in-differences models. The Econometrics Journal 23 (2), 177–191.
  
   Thistlethwaite, D.; Campbell, D. (1960). "Regression-Discontinuity Analysis: An alternative to the ex post facto experiment". Journal of Educational Psychology. 51 (6): 309–317. doi:10.1037/h0044319.
